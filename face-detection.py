@@ -9,7 +9,7 @@ import cv2
 # Untuk mengambil gambar menggunakan streaming video
 cap = cv2.VideoCapture(0)
 # Load lokasi hasil training dari haar cascade
-faceCascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
+faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 cv2.namedWindow("face detection", cv2.WINDOW_GUI_EXPANDED)
 
